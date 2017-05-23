@@ -8,3 +8,9 @@ C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.csproj.
 C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.exe
 C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.pdb
 C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.Viewer.resources
+C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.csproj.ResolveComReference.cache
+C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.PdfViewer.resources

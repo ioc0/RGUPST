@@ -16,5 +16,10 @@ namespace RGUPST
         {
             InitializeComponent();
         }
+
+        public void ShowMeSomething(string s)
+        {
+            this.axAcroPDF1.src = s;
+        }
     }
 }
