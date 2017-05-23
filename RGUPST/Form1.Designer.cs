@@ -30,14 +30,16 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.открытьПрограммуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmOpen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmExit = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tpEM = new System.Windows.Forms.TabPage();
             this.tpAddons = new System.Windows.Forms.TabPage();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.tpEM.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -54,24 +56,25 @@
             // файлToolStripMenuItem
             // 
             this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.открытьПрограммуToolStripMenuItem,
-            this.выходToolStripMenuItem});
+            this.tsmOpen,
+            this.tsmExit});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
             this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.файлToolStripMenuItem.Text = "Файл";
             // 
-            // открытьПрограммуToolStripMenuItem
+            // tsmOpen
             // 
-            this.открытьПрограммуToolStripMenuItem.Name = "открытьПрограммуToolStripMenuItem";
-            this.открытьПрограммуToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.открытьПрограммуToolStripMenuItem.Text = "Открыть Программу";
+            this.tsmOpen.Name = "tsmOpen";
+            this.tsmOpen.Size = new System.Drawing.Size(189, 22);
+            this.tsmOpen.Text = "Открыть Программу";
+            this.tsmOpen.Click += new System.EventHandler(this.tsmOpen_Click);
             // 
-            // выходToolStripMenuItem
+            // tsmExit
             // 
-            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.выходToolStripMenuItem.Text = "Выход";
-            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            this.tsmExit.Name = "tsmExit";
+            this.tsmExit.Size = new System.Drawing.Size(189, 22);
+            this.tsmExit.Text = "Выход";
+            this.tsmExit.Click += new System.EventHandler(this.tsmExit_Click);
             // 
             // оПрограммеToolStripMenuItem
             // 
@@ -92,6 +95,7 @@
             // 
             // tpEM
             // 
+            this.tpEM.Controls.Add(this.treeView1);
             this.tpEM.Location = new System.Drawing.Point(4, 22);
             this.tpEM.Name = "tpEM";
             this.tpEM.Padding = new System.Windows.Forms.Padding(3);
@@ -110,6 +114,15 @@
             this.tpAddons.Text = "Дополнительные материалы";
             this.tpAddons.UseVisualStyleBackColor = true;
             // 
+            // treeView1
+            // 
+            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView1.Location = new System.Drawing.Point(3, 3);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(427, 406);
+            this.treeView1.TabIndex = 0;
+            this.treeView1.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.actionOnClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -123,6 +136,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
+            this.tpEM.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,12 +146,13 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem открытьПрограммуToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmOpen;
+        private System.Windows.Forms.ToolStripMenuItem tsmExit;
         private System.Windows.Forms.ToolStripMenuItem оПрограммеToolStripMenuItem;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tpEM;
         private System.Windows.Forms.TabPage tpAddons;
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
 

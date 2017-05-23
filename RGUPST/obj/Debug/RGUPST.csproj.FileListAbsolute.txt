@@ -7,3 +7,4 @@ C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.Propert
 C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.csproj.GenerateResource.Cache
 C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.exe
 C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.pdb
+C:\Users\mortt\Documents\_Projects\RGUPST\RGUPST\RGUPST\obj\Debug\RGUPST.Viewer.resources
