@@ -95,7 +95,7 @@ namespace RGUPST
         private static void PdfShowDocument()
         {
             var pdfViewer = new PdfViewer();
-            pdfViewer.ShowMeSomething(@"C:\Test\card1.pdf.pdf");
+            pdfViewer.ShowMeSomething(@"C:\Test\RZ.pdf",5);
             pdfViewer.Show();
         }
 

@@ -17,9 +17,10 @@ namespace RGUPST
             InitializeComponent();
         }
 
-        public void ShowMeSomething(string s)
+        public void ShowMeSomething(string s, int pageNumber)
         {
             this.axAcroPDF1.src = s;
+            this.axAcroPDF1.setCurrentPage(pageNumber);
         }
     }
 }
